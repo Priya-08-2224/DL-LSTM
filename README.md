@@ -2,11 +2,16 @@
 
 ## AIM
 To develop an LSTM-based model for recognizing the named entities in the text.
+# Problem Statement:
+Develop a deep learning model using LSTM to perform Named Entity Recognition (NER) on text data. Preprocess the dataset by tokenizing text and encoding words and labels. Train and evaluate the model to accurately identify entities such as names, locations, and organizations.
 
 ##  Dataset
 ![image](https://github.com/Priya-08-2224/DL-LSTM/blob/main/Screenshot%202026-03-16%20083205.png)
 
+# THEORY
+Recurrent Neural Networks (RNNs) are used for sequential data where past information is important. They process data step by step and remember previous inputs, making them suitable for time-series problems like stock prediction.
 
+In this model, past stock prices are used as input, and the network learns patterns such as trends and fluctuations. Based on this learned information, the model predicts future stock prices. Advanced versions like LSTM improve performance by handling long-term dependencies more effectively.
 ## DESIGN STEPS
 ### STEP 1: 
 
